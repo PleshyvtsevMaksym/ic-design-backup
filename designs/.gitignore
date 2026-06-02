@@ -1,0 +1,25 @@
+# simulation/cache/temp
+*.raw
+*.log
+*.out
+*.tmp
+*.bak
+*.swp
+*.jou
+*.str
+*.sim
+*.save
+
+# extracted/generated heavy files
+*.ext
+*.spice.old
+*.cache
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker image backup - do not put normal Docker tar into repo
+*.tar
+*.tar.gz
+*.zip
